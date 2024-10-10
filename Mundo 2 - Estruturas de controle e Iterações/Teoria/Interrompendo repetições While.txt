@@ -1,0 +1,11 @@
+O 'stop' cria um desvio na execução para fora da repetição.
+
+O comando para interromper um laço no Python é o 'Break'.
+
+While True:
+    É o loop infinito
+    O 'Break' interrompe o 'Loop infinito'
+
+Obs:
+
+    No uso do Break, o contador deve ser utilizado após o Break.

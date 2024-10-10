@@ -1,0 +1,13 @@
+-- Condicional if
+    --- Estrutura aninhada ----
+
+        if condição():
+            Bloco 1
+        elif condição():
+            Bloco 2
+        elif condição():
+            Bloco 3
+        else:
+            Bloco 4
+
+    Pode-se utilizar vários 'elif' dentro do if

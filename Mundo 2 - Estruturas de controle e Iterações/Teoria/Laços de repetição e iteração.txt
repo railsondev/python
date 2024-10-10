@@ -1,0 +1,13 @@
+-- Estrutura de controle for com variável de controle
+
+  O símbolo é um 'Quadrado'
+
+  laço c no intervalo(1, 10)
+    passo
+  pega
+
+  for c in range(1, 10):
+    passo
+  pega
+
+  

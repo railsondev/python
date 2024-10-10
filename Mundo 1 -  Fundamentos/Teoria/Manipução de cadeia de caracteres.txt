@@ -1,0 +1,46 @@
+-- Fatiamento
+
+    frase[x]     -> O x é a referência do início
+    frase[x:y]   -> Dessa forma ele vai de x até o nº antes de y
+    frase[x:y:z] -> Irá de x até y, sendo que pulará de 2 em 2
+    frase[:5]    -> Irá do ínicio até o valor de y
+    frase[15:]   -> Irá do valor determina no campo x até o final
+    frase[15::3] -> Irá do valor determina no campo x até o final, sendo que pulará de 3 em 3
+    frase[::-1]  -> Irá retornar a frase de trás pra frente
+
+-- Análise
+
+    len(frase)           -> Retorna o comprimento da frase
+    frase.count('c')     -> Retorna a quantidade de caracteres solicitados entre '' na frase
+        Obs:
+            Ele irá diferenciar minuscula de maiuscula
+
+    frase.count('c',x,y) -> Retorna a quantidade de caracteres solicitados entre '' na espaço delimitado dentro da frase
+    frase.find('c')      -> Retorna o início da palavra solicitada na frase
+        Obs:
+            A palavra 'deo' dentro da frase 'curso em video'
+
+            Caso a palavra não exista dentro frase o seu retorno será '-1'
+
+    'c' in frase         -> Verifica se existe a palavra 'c'
+        Obs:
+            Retornando 'True' ou 'False'
+
+-- Transformação
+
+    frase.replace('p','t') -> Serve para substituir o 't' pelo 'p'
+    frase.upper()          -> Serve para transformar a palavra em maiuscula
+    frase.lower()          -> Serve para transformar a palavra em minuscula
+    frase.capitalize()     -> Mantém somente somente a primeira letra da frase em maiuscula
+    frase.title()          -> Tranforma somente a primeira letra de cada palavra da frase em maiuscula utilizando como referência os espaços em branco.
+    frase.strip()          -> Remove todos os espaços indesejados tanto na frente quanto atrás da palavra
+    frase.rstrip()         -> Remove apenas os espaços indesejados na frente da palavra
+    frase.lstrip()         -> Remove apenas os espaços indesejados atrás da palavra
+
+-- Divisão
+
+    frase.split()          -> Monta uma lista com todos os elementos da cadeia de caracteres, dando novos indices
+
+-- Junção
+
+    '-'.join(frase)        -> Coloca traços nos espaços em branco existentes na palavra

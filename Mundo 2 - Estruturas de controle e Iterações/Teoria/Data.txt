@@ -1,0 +1,25 @@
+from datetime import date
+
+Com a biblioteca importada basta realizar os passos a seguir:
+
+Capturar a data atual:
+
+  data = date.today()
+    Print = 2022-12-01
+
+Formatar data para o padrão brasileiro:
+
+  dataFormatada = data.strftime('%d/%m/%Y')
+    Print = 01/12/2022
+
+Capturar dia mês e ano separado:
+
+  dia = date.today().day
+    Print = 1
+
+  mes = date.today().month
+    Print = 12
+
+  ano = date.today().year
+    Print = 2022
+    

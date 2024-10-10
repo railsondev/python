@@ -1,0 +1,67 @@
+Operadores
+
+    + -> Adição
+    - -> Subtração
+    * -> Multiplicação
+    / -> Divisão
+    ** -> Potência
+    // -> Divisão inteira # É a divisão sem utilizar a virgula
+    % -> Resto da Divisão # É o modúlo da divisão
+
+Ordem de precedência
+
+    1º -> ()
+    2º -> ** # Função interna pow(x,y)
+    3º -> * / // %
+    4º -> + -
+
+Raiz quadrada
+
+    n**(1/2)
+
+Ajuste da palavra utilizando o string
+
+    {:>n} -> Alinhar a direita
+    {:<n} -> Alinhar a esquerda
+    {:^n} -> Centralizado
+    {:=^n} -> Centralizado com === ao redor
+
+Atribuição
+
+    Operador	Exemplo	Equivalente a
+    =	        x = 1	x = 1
+    +=	        x += 1	x = x + 1
+    -=	        x -= 1	x = x - 1
+    *=	        x *= 1	x = x * 1
+    /=	        x /= 1	x = x / 1
+    %=	        x %= 1	x = x % 1
+
+Comparação
+
+    Operador	            Conceito	                                    Exemplo
+    >(Maior que)	        Verifica se um valor é maior que outro	        x > 5
+    <(Menor que)	        Verifica se um valor é menor que outro	        x < 5
+    == (Igual a)	        Verifica se um valor é igual a outro	        x == 5
+    != (Diferente de)	    Verifica se um valor é diferente de outro	    x != 5
+    >= (Maior ou igual a)	Verifica se um valor é maior ou igual a outro	x >= 5
+    <= (Menor ou igual a)	Verifica se um valor é menor ou igual a outro	x <= 5
+
+Lógicos
+
+    Operador     Conceito	                                                                            Exemplo
+    and	         Retorna True se todas as condições forem verdadeiras, caso contrário retorna False	    x > 1 and x < 5
+    or	         Retorna True se uma das condições for verdadeiras, caso contrário retorna False	    x > 1 or x < 5
+    not	         Inverte o resultado: se o resultado da expressão for True, o operador retorna false	not(x > 1 and x < 5)
+
+Identidade
+
+    Operador	Conceito	                                                        Exemplo
+    is	        Retorna True se as variáveis comparadas forem o mesmo objeto	    nome is ‘Marcos’
+    is not	    Retorna True se as variáveis comparadas não forem o mesmo objeto	x is not ‘Python’
+
+Associação
+
+    Operador	Conceito	                                                Exemplo
+    in	        Retorna True caso o valor seja encontrado na sequência	    2 in x
+    not in	    Retorna True caso o valor não seja encontrado na sequência	2 not in x
+

@@ -1,0 +1,76 @@
+Varíavel simples
+
+    Toda varíavel simples é um espaço na memória.
+
+Varíavel composta
+
+    Tuplas
+    Listas
+    Dicionários
+
+    Os indices formam as varíaveis compostas.
+
+    print(variavel[indice])
+    print(varíavel[0:2])
+    print(varíavel[-n]) -> Retorna o item de trás pra frente
+    print(varíavel[-n:]) -> Retorna do parâmetro para trás
+
+    Pode utilizar-se:
+
+        len(varíavel)
+        for c in varíavel:
+            A varíavel 'c' é uma varíavel simples
+
+
+    IMPORTANTE:
+
+        As tuplas são IMUTÁVEIS
+            Não tem como mudar uma tupla
+
+        Na sua construção utiliza-se ()
+        Para referênciar utiliza-se []
+        No uso do 'enumerate() deve-se separar a variável por ','.
+
+        Para utilizar o index ou times, deve-se realizar a importação de 
+            from operator import index
+                Obs:
+                    Deve-se utilizar antes da palavra 'index' o variável da tupla
+            from os import times
+
+    Funções
+
+        __add__ 
+        __class__
+        __class_getitem__
+        __contains__
+        __delattr__
+        __dir__
+        __doc__
+        __eq__
+        __format__
+        __ge__
+        __getattribute__
+        __getitem__
+        __getnewargs__
+        __getstate__
+        __gt__
+        __hash__
+        __init__
+        __init_subclass__
+        __iter__
+        __le__
+        __len__
+        __lt__
+        __mul__
+        __ne__
+        __new__
+        __reduce__
+        __reduce_ex__
+        __repr__
+        __rmul__
+        __setattr__
+        __sizeof__
+        __str__
+        __subclasshook__
+        count
+        index

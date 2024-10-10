@@ -1,0 +1,36 @@
+Importação completa da biblioteca
+
+    import 'nome_da_biblioteca' # Não se utiliza a aspas simples
+
+Importação especifica dentro da biblioteca
+
+    from 'nome_da_biblioteca' import 'elemento_especifico'
+
+Funções
+
+    math  -> matemática
+        ceil  -> Arredondamento para cima
+        floor -> Arredondamento para baixo
+        trunc -> Corta os números após a virgula
+        pow   -> Utilizado para potência, semelhante ao **
+        sqrt  -> Utilizado no calculo de raiz quadrada.
+        factorial -> Utilizado no calculo de fatorial
+
+        import math
+        from math import sqrt
+            Quando se realiza a Importação especifica não é mais necessário utilizar a referência da biblioteca.
+
+    random
+
+        Utilizando o random ele retorna um número entre 0 e 1.
+    
+        randint
+
+            random.randint(x, y)
+            Utilizado para randômizar entre um espaço determinado.
+    
+    emoji
+
+        import emoji
+
+        print(emoji.emojize("Olá mundo 'nome_copiado_do_emoji'"))

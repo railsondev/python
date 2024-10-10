@@ -1,0 +1,6 @@
+--- Estrutura de repetição com teste lógico
+
+  O loop se repete enquanto a condição for verdadeira.
+  O símbolo é um 'Losangolo'
+
+  

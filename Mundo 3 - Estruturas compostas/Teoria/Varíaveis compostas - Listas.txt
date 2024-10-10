@@ -1,0 +1,108 @@
+Listas podem ser mutáveis, ou seja, podem ser alteradas.
+
+Criando uma lista vazia
+
+    n = []
+    n = list()
+
+# IMPORTANTE
+
+    No momento que se iguala 2 listas e que se altera uma acaba alterando as 2 ao mesmo tempo.
+    Na copia de uma lista para outra somente altera-se na qual se alterou
+        b = a[:]
+        b.append(a[:])
+
+Metódos
+
+  variável.append('item') -> Adiciona um novo item no final da lista
+  variável.insert(indice,'item') -> Adiciona um novo item no indice informado
+    Obs:
+      Altera o indice de todos os existentes
+  
+  Remover
+    del variável[indice] -> Deleta o item do indice informado
+    variável.pop(indice) -> ""
+    variável.pop() -> Remove o último indice
+    variável.remove('Nome do valor') -> Remove utilizando o valor informado
+      Obs:
+        Refaz os indices da lista
+
+    Utilizando condicionais
+
+      if 'pizza' in variável:
+        variável.remove('pizza')
+
+  * append -> Adicionar outros elementos a lista
+  * clear -> Remove os itens da lista
+  * copy -> Realiza a copia de outra lista
+    obs:
+      Necessário fazer o from copy import deepcopy 
+  * count -> Conta a quantidade de elementos dentro da lista. 
+  * extend -> Adiciona em blocos dentro de uma lista 
+  * index -> Mostra o indice do elemento solicitado
+  * insert -> Insere um elemento no indice solictado (i, elemento)
+  * pop -> Remove um elemento da lista 
+  * remove -> Remove o elemento solicitado da lista
+    obs:
+      Um de cada vez 
+  * reverse -> Mostra de trás para frente
+  * sort -> Organiza a lista em ordem crescente
+
+Varrer uma lista
+
+  for i, v in enumerate(lista):
+
+    i ->  Indice da lista
+    v ->  Valor referente ao indice
+
+  
+
+Listas compostas
+
+  variavel1 = list()
+  variavel1.append(variável2[:]) -> Realiza a inclusão de uma lista em uma nova lista
+  variavel1=[[lista1], [lista2], [lista3]]
+
+  Obs:
+
+    - variavel1.append(variável2) -> Altera as duas listas
+    - Não pode agrupar variaveis com o intuito de passar o mesmo valor inicial
+      totmai = totmen = 0 -> lista_simples
+
+  Fatiamento
+
+    print(variavel1[indice_lc][indice_ls]) -> Mostra o elemento que está no indice da lista_composta e na lista_simples.
+    print(variavel1[indice_lc]) -> Mostra a lista do indice correspondente na lista_composta.
+
+  Varrer uma lista_composta
+
+    for p in variavel1:
+      print(p) -> Mostra as lista_simples uma abaixo da outra
+      print(p[0]) -> Mostra somente o indice solicitado de todas as lista_simples
+      print(f'p[0] tem {p[1]} anos de idade')
+  
+  Inclusão e exclusão de lista
+  
+  dado = list()
+  galera = list()
+
+    for c in range(0, 3):
+      dado.append(str(input('Nome')))
+      dado.append(int(input('Idade: )))
+      galera.append(dado[:]) -> Evitando a exclusão dos elementos na lista galera
+      dado.clear() -> Excluindo a lista dado
+
+  Verificação
+
+  totmai = totmen = 0
+
+    for p in galera:
+      if p[1] >= 21:
+        print(f'{p[0]} é maior de idade.')
+        totmai += 1
+      else:
+        print(f'p{0} é menor de idade.')
+        totmen += 1
+
+  print(f'Temos {totmai} pessoas maiores de idade e {totmen} pessoas menores de idade.')
+  

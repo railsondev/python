@@ -1,0 +1,44 @@
+Obs:
+
+  Na declaração utiliza-se {}
+  Na referênciação utiliza []
+  Para realizar a copia de um dicionário, utilize o .copy()
+
+Declaração
+
+  dados = dict()
+  dados = { 'nome':'Pedro', 'idade':25}
+  print(dados['nome'])
+  print(dados['idade'])
+
+Inclusão
+
+  dados['sexo'] = 'M'
+
+Exclusão
+
+  del dados['nome_do_indice']
+
+  
+  
+  filme = { 'titulo':'Star Wars',
+            'ano':'1977',
+            'diretor':'George Lucas'
+  }
+
+Metodos internos
+
+  print(filme.values()) -> Retorna todos os elementos do dicionário
+  print(filme.keys())   -> Retorna os indices dos elementos do dicionário
+  print(filme.items())  -> Retorna tanto o indice como o elemento do dicionário
+
+Laço
+
+  for k, v in filme.items():
+    print(f'O {k} é {v}')
+
+Importante
+
+  As listas são representadas por 'números'
+  Os dicionários são identificados por 'texto ou número'
+
